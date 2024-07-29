@@ -1,0 +1,11 @@
+import mymodule
+importはモジュール全体
+
+import mymodule as mm
+asはインポートしたフォルダ名を省略できる
+
+from mymodule import Container, add, list
+from ファイル名 import クラス名で個別のクラスや関数を呼び出せる
+
+importやformなどの読み込みには並び順が存在する
+import > formの順番？

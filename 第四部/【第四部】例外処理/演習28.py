@@ -13,6 +13,8 @@ def can_drink_alcohol(age: int):
         if age >= 20:
             return '飲酒可能' 
     except TypeError as e:
+        print
+    except TypeError as e:
         print(e)
 
 
